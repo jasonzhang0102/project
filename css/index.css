@@ -1,0 +1,355 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#main, .swiper-container, .swiper-wrapper, .swiper-slide {
+    width: 100%;
+    height: 100%;
+
+}
+
+h2 {
+    font-size: 24px;
+    color: #B50029;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 19px;
+    color: #B50029;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 19px;
+    color: #000;
+    line-height: 33px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.con {
+    margin: 90px auto;
+    width: 530px;
+
+}
+
+.slide2, .slide3, .slide4, .slide5 {
+    overflow: auto;
+    width: 640px;
+}
+
+.swiper-wrapper .slide1 {
+    background: url(../img/p1-bg01.jpg) no-repeat;
+    background-size: cover;
+}
+
+/*第一页*/
+.slide1 .con {
+    width: 640px;
+    margin-top: 530px;
+}
+
+.slide1 .con .r-1 {
+    width: 488px;
+    height: 87px;
+    margin: 9px 74px;
+}
+
+.slide1 .con .r-2 {
+    width: 479px;
+    height: 2px;
+    margin: 9px 74px;
+}
+
+.slide1 .con .r-3 {
+    width: 478px;
+    height: 39px;
+    margin: 9px 74px;
+}
+
+.slide1 .con .r-4 {
+    width: 636px;
+    height: 14px;
+    margin: 18px 0;
+}
+
+.slide1 .con .r-5 {
+    width: 531px;
+    height: 133px;
+    margin: 9px 55px;
+}
+
+/*第二页*/
+.slide2 .con {
+    margin-top: -308px;
+}
+
+.slide2 .con .p2-1 {
+    margin-top: 20px;
+}
+
+/*第三页*/
+.slide3 .p-s {
+    margin-top: 23px;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.slide3 .p3-i {
+    margin-bottom: 11px;
+}
+
+/*第四页*/
+.slide4 .p4-1 {
+    margin-top: 26px;
+}
+
+.slide4 .p4-2 {
+    margin-top: 9px;
+}
+
+.slide4 .p4-3 {
+    margin-top: 13px;
+}
+
+/*第五页*/
+.slide5 img {
+    margin: 1px;
+}
+
+.slide5 .s1 {
+    font-size: 21px;
+    color: #000;
+}
+
+/*第六页*/
+.slide6 .con .p6-1 {
+    margin-top: 23px;
+}
+
+.slide6 .con .p6-2 {
+    margin-top: 7px;
+}
+
+/*第七页*/
+.slide7 p {
+    font-size: 19px;
+    color: #000;
+    line-height: 33px;
+    padding: 5px 0;
+}
+
+.slide7 .p-i img {
+    width: 147px;
+    height: 147px;
+    margin: 75px 9px;
+}
+
+.slide7 .p-i .o1 {
+    margin-left: 23px;
+}
+
+.slide7 .p-x2 {
+    margin-bottom: 11px;
+}
+
+/*第一页动画效果*/
+#page1 img:nth-child(1) {
+    -webkit-animation: bounceInLeft 1s 0s both;
+    animation: bounceInLeft 1s 0s both;
+}
+
+#page1 img:nth-child(2) {
+    -webkit-animation: bounceInRight 1s 0.3s both;
+    animation: bounceInRight 1s 0.3s both;
+}
+
+#page1 img:nth-child(3) {
+    -webkit-animation: bounceInUp 1s 0.6s both;
+    animation: bounceInUp 1s 0.6s both;
+}
+
+#page1 img:nth-child(4) {
+    -webkit-animation: bounceInUp 1s 0.9s both;
+    animation: bounceInUp 1s 0.9s both;
+}
+
+#page1 img:nth-child(5) {
+    -webkit-animation: bounceInUp 1s 1.2s both;
+    animation: bounceInUp 1s 1.2s both;
+}
+
+@keyframes move {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@media all and (max-width: 640px) {
+    h2 {
+        font-size: 0.24rem;
+        color: #B50029;
+        margin: 0.20rem 0;
+    }
+
+    h3 {
+        font-size: 0.19rem;
+        color: #B50029;
+        margin: 0.10rem 0;
+    }
+
+    p {
+        font-size: 0.19rem;
+        color: #000;
+        line-height: 0.33rem;
+    }
+
+    .con {
+        margin: 0.90rem auto;
+        width: 5.30rem;
+    }
+
+    /*第一页*/
+    .slide1 .con {
+        width: 6.4rem;
+        margin-top: 5.3rem;
+    }
+
+    .slide1 .con .r-1 {
+        width: 4.88rem;
+        height: 0.87rem;
+        margin: 0.09rem 0.74rem;
+    }
+
+    .slide1 .con .r-2 {
+        width: 4.79rem;
+        height: 0.02rem;
+        margin: 0.09rem 0.74rem;
+    }
+
+    .slide1 .con .r-3 {
+        width: 4.78rem;
+        height: 0.39rem;
+        margin: 0.09rem 0.74rem;
+    }
+
+    .slide1 .con .r-4 {
+        width: 6.36rem;
+        height: 0.14rem;
+        margin: 0.18rem 0;
+    }
+
+    .slide1 .con .r-5 {
+        width: 5.31rem;
+        height: 1.33rem;
+        margin: 0.09rem 0.55rem;
+    }
+
+    /*第二页*/
+    .slide2 .con {
+        margin-top: -3.08rem;
+    }
+
+    /*第三页*/
+    .slide3 .p-s {
+        margin-top: 0.23rem;
+        font-size: 0.16rem;
+        line-height: 0.28rem;
+    }
+
+    /*第四页*/
+    .slide4 .p4-1 {
+        margin-top: 0.26rem;
+    }
+
+    .slide4 .p4-2 {
+        margin-top: 0.09rem;
+    }
+
+    .slide4 .p4-3 {
+        margin-top: 0.13rem;
+    }
+
+    /*第五页*/
+    .slide5 img {
+        margin: 0.01rem;
+    }
+
+    .slide5 .s1 {
+        font-size: 0.21rem;
+        color: #000;
+    }
+    .slide5 .con .p5-1 {
+        background: url(../img/wenzi_06.png) no-repeat;
+        background-size: 100%;
+    }
+    .slide5 .con .p5-1 .p5-2{
+        font-size: 0;
+    }
+    .slide5 .con .p5-3{
+        margin-top: 1rem;
+        z-index: 0;
+    }
+
+    /*第六页*/
+    .slide6 .con .p6-1 {
+        margin-top: 0.23rem;
+    }
+
+    .slide6 .con .p6-2 {
+        margin-top: 0.07rem;
+    }
+
+    /*第七页*/
+    .slide7 p {
+        font-size: 0.19rem;
+        color: #000;
+        line-height: 0.33rem;
+        padding: 0.05rem 0;
+    }
+
+    .slide7 .p-i img {
+        width: 1.47rem;
+        height: 1.47rem;
+        margin: 0.75rem 0.09rem;
+    }
+
+    .slide7 .p-i .o1 {
+        margin-left: 0.23rem;
+    }
+
+    .slide7 .p-x2 {
+        margin-bottom: 0.11rem;
+    }
+
+}
+
+@media all and (max-width: 320px) {
+    .slide3 .con .p-s{
+        margin-top: 0.23rem;
+        font-size: 0.16rem;
+        line-height: 0.28rem;
+    }
+    .slide5 .con .p5-1 {
+        background: url(../img/wenzi_06.png) no-repeat;
+        background-size: 100%;
+    }
+    .slide5 .con .p5-1 .p5-2{
+        font-size: 0;
+    }
+    .slide5 .con .p5-3{
+        margin-top: 1rem;
+    }
+
+}
